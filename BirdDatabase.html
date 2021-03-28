@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="maps, cartography, ellie milligan, data visualization, GIS, web development">
+    
+        <title>Ellie Milligan</title>
+    
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href=css/style.css>
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    
+    </head>
+    
+    <body>
+        
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+        <a href="index.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="cv.html">CV</a>
+    </div>
+    </div>  
+        
+    <span style="font-size:40px;cursor:pointer;padding-left: 110px;" onclick="openNav()">&#9776; <b>Ellie Milligan</b> Maps</span>    
+        
+        
+
+<br><br><div class="container" >
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<h1>Database Design and Implementation: Bird Sightings in Dane County, Wisconsin</h1>
+
+				</div>
+			</div>
+		</div>
+
+<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+				</div>
+
+				<div class="col-md-8 projectText text-center">
+
+					<p>As a final project for a geospatial databases course at UW-Madison, my project partner and I designed and implemented a database that could be utilized to learn about bird sightings as they relate to climate in Wisconsin. Since we utilized data from <a href="https://ebird.org/home">eBird</a>, a citizen science repository for bird data, we had a massive amount of data to work through, and given the limited amount of time and technical resources for this project, we limited our focus to Dane County, Wisconsin. We also utilized climate data from the <a href="https://mrcc.illinois.edu/">Midwest Regional Climate Center (MRCC)</a>, since we wanted our database to allow people to understand how changes in climate might impact bird detections and migratory patterns over time. QGIS and PostGIS were used to create maps based on queries of the database we created. Click on the photo below to see our full final report. </p>
+
+				</div>
+
+				<div class="col-md-2">
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+				</div>
+
+				<div class="col-md-8">
+					<a href="assets/HeindlMilligan_FinalReport.pdf"><img src="assets/bird_database.png" style="width:100%" class="projectImage"></a>
+
+				</div>
+				<div class="col-md-2">
+					
+				</div>
+
+			</div>
+		</div>
+
+    
+    <br><footer>
+			<br><div class="container text-center">
+				<h4>  
+                    <img src="assets/twitter.png" height= 40px> <a href="https://twitter.com/elliemaps">@elliemaps</a>
+                </h4>
+            </div><br>
+    </footer>
+    
+    <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script>
+        function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+
+        </body>
+    </html>

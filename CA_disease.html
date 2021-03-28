@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="maps, cartography, ellie milligan, data visualization, GIS, web development">
+    
+        <title>Ellie Milligan</title>
+    
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="lib/Leaflet.markercluster/dist/MarkerCluster.css">
+        <link rel="stylesheet" href="lib/Leaflet.markercluster/dist/MarkerCluster.Default.css">
+        
+        <script src="lib/jquery-3.3.1.js"></script>
+        <script src="lib/leaflet/leaflet.js"></script>
+        <script src="lib/leaflet/leaflet-src.js"></script>
+        <script src="js/ca_pertussis.js"></script>
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    
+    </head>
+    
+    <body>
+        
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+        <a href="index.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="cv.html">CV</a>
+    </div>
+    </div>  
+        
+    <span style="font-size:40px;cursor:pointer;padding-left: 110px;" onclick="openNav()">&#9776; <b>Ellie Milligan</b> Maps</span>    
+        
+        
+
+
+        <br><h2 class="container, text-center">Pertussis in California, 2001-2015</h2><br>
+        
+        <div class="col-12">
+        <p class="container, text-center">For the past 100+ years, vaccines have been revolutionizing healthcare. They provide a relatively low-cost, easy to attain preventative alternative to treatments for otherwise highlhy contagious and common diseases like chickenpox, measles, mumps, the flu, and diptheria. Just in the United States, vaccines are projected to save hundreds of thousands of lives and prevent millions of hospitalizations among children who were born between 1994-2014, but that doesn't stop people from being skeptical of their supposed side-effects. Misinformation runs rampant when it comes to vaccines, so many vaccine-preventable diseases continue to appear in outbreaks where they otherwise could have been eradicated. Pertussis, or whooping cough, is just one example of an easily preventable communicable disease. <br>
+
+        <br>This map looks at reported incidents of pertussis at the county level throughout the state of California, from 2001-2015, and shows how, despite the availability of a vaccine for this disease, it is still frighteningly common. </p><br>
+        </div>
+        
+		<div class="container" align="center" id="map"></div>
+        
+        <div class="container, text-center">
+            <p>Data Sources: <a href=https://data.chhs.ca.gov/dataset/vaccine-preventable-disease-cases-by-county-and-year>California Department of Public Health</a>, <a href=https://www.cdc.gov/media/releases/2014/p0424-immunization-program.html>Centers for Disease Control and Prevention</a>, <a href=https://www.vaccines.gov/diseases/index.html>Vaccines.gov</a></p>
+        </div>
+        
+        
+
+    
+    <br><footer>
+			<br><div class="container text-center">
+				<h4>  
+                    <img src="assets/twitter.png" height= 40px> <a href="https://twitter.com/elliemaps">@elliemaps</a>
+                </h4>
+            </div><br>
+    </footer>
+    
+    <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script>
+        function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+
+        </body>
+    </html>
